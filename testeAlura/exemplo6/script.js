@@ -9,7 +9,7 @@ let remover = "";
 let addMais = 'sim';
 while (addMais != 'não') {
 
-  if (frutas.length === 0 && laticinos.length === 0 && doce.length === 0 && congelados.length === 0) {
+  if (frutas.length === 0 && laticinos.length === 0 && doces.length === 0 && congelados.length === 0) {
     addMais = prompt('deseja adiciona uma comida?')
   } else {
     addMais = prompt('deseja remover uma comida?')
